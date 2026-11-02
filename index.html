@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aavya Fish Home | Aquarium & Fish Store</title>
+
+  <meta name="description" content="Aavya Fish Home - All types of aquarium fish, fish food, bird food, aquarium care services and maintenance in Sanjay Nagar, Ghaziabad.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ocean: '#061827',
+            deep: '#0A263A',
+            aqua: '#16D9E8',
+            cyan: '#55EAF2'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #061827;
+      color: white;
+    }
+
+    .hero-bg {
+      background:
+        linear-gradient(90deg, rgba(3,17,30,.95), rgba(3,17,30,.55)),
+        url('https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=2000&q=85');
+      background-position: center;
+      background-size: cover;
+    }
+
+    .glass {
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(12px);
+    }
+
+    .aqua-text {
+      background: linear-gradient(90deg,#16D9E8,#8AF7FF);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .service-card {
+      transition: .3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-7px);
+      border-color: #16D9E8;
+    }
+  </style>
+</head>
+
+<body class="font-sans">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-[#061827]/95 backdrop-blur-lg border-b border-white/10">
+    <nav class="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center">
+
+      <a href="#" class="text-xl md:text-2xl font-extrabold tracking-wide">
+        AAVYA <span class="aqua-text">FISH HOME</span>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-sm text-gray-300">
+        <a href="#home" class="hover:text-aqua">Home</a>
+        <a href="#services" class="hover:text-aqua">Products & Services</a>
+        <a href="#about" class="hover:text-aqua">Why Choose Us</a>
+        <a href="#contact" class="hover:text-aqua">Contact</a>
+      </div>
+
+      <a href="https://wa.me/917838530420"
+         class="bg-aqua text-ocean font-bold px-5 py-2.5 rounded-full text-sm hover:bg-cyan transition">
+        WhatsApp Us
+      </a>
+
+    </nav>
+  </header>
+
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-bg min-h-[650px] flex items-center">
+
+    <div class="max-w-7xl mx-auto px-5 py-24 w-full">
+
+      <div class="max-w-2xl">
+
+        <span class="inline-block border border-aqua/50 text-aqua px-4 py-2 rounded-full text-sm mb-6">
+          🐠 Your Trusted Aquarium Store
+        </span>
+
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+          Bring The <span class="aqua-text">Ocean</span>
+          <br>Into Your Home
+        </h1>
+
+        <p class="text-gray-300 text-base md:text-lg leading-relaxed mb-8">
+          All Type of Aquarium Fish, Fish Food, Bird Food,
+          Aquarium Care Services & Maintenance Available.
+          Make your space more beautiful with the magic of aquatic life.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+
+          <a href="https://wa.me/917838530420?text=Hello%20Aavya%20Fish%20Home%2C%20I%20want%20to%20know%20about%20your%20products."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="bg-aqua text-ocean px-7 py-4 rounded-full font-bold hover:scale-105 transition">
+            Order on WhatsApp →
+          </a>
+
+          <a href="#services"
+             class="border border-white/40 px-7 py-4 rounded-full font-semibold hover:bg-white/10 transition">
+            Explore Services
+          </a>
+
+        </div>
+
+        <div class="flex gap-8 mt-12">
+          <div>
+            <h3 class="text-2xl font-bold aqua-text">🐠</h3>
+            <p class="text-gray-400 text-sm">Aquarium Fish</p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold aqua-text">🌿</h3>
+            <p class="text-gray-400 text-sm">Aquarium Care</p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold aqua-text">🐦</h3>
+            <p class="text-gray-400 text-sm">Bird Food</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- INTRO -->
+  <section class="py-20 px-5">
+    <div class="max-w-4xl mx-auto text-center">
+
+      <p class="text-aqua font-semibold tracking-widest uppercase text-sm mb-4">
+        Welcome to Aavya Fish Home
+      </p>
+
+      <h2 class="text-3xl md:text-5xl font-bold mb-6">
+        Everything Your <span class="aqua-text">Aquatic World</span> Needs
+      </h2>
+
+      <p class="text-gray-400 leading-8">
+        From beautiful aquarium fish to quality fish food and
+        professional aquarium maintenance, we offer products
+        and services to help you enjoy a wonderful aquatic experience.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-[#0A263A] px-5">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <p class="text-aqua font-semibold uppercase tracking-widest text-sm mb-3">
+          What We Offer
+        </p>
+
+        <h2 class="text-3xl md:text-5xl font-bold">
+          Our Products & <span class="aqua-text">Services</span>
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+        <!-- CARD 1 -->
+        <div class="service-card glass rounded-2xl overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&w=800&q=80"
+            alt="Beautiful aquarium fish"
+            class="w-full h-56 object-cover">
+
+          <div class="p-7">
+            <div class="text-3xl mb-4">🐠</div>
+            <h3 class="text-2xl font-bold mb-3">Aquariums & Fish</h3>
+            <p class="text-gray-400 leading-7 mb-6">
+              Explore different types of aquarium fish and
+              aquarium setups to bring life to your space.
+            </p>
+
+            <a href="https://wa.me/917838530420?text=I%20am%20interested%20in%20aquariums%20and%20fish."
+               class="text-aqua font-semibold hover:underline">
+              Enquire Now →
+            </a>
+          </div>
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="service-card glass rounded-2xl overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=800&q=80"
+            alt="Pet food and supplies"
+            class="w-full h-56 object-cover">
+
+          <div class="p-7">
+            <div class="text-3xl mb-4">🥣</div>
+            <h3 class="text-2xl font-bold mb-3">Fish & Bird Food</h3>
+            <p class="text-gray-400 leading-7 mb-6">
+              Find fish food and bird food for your pets.
+              Contact us to know about available options.
+            </p>
+
+            <a href="https://wa.me/917838530420?text=I%20want%20to%20enquire%20about%20fish%20and%20bird%20food."
+               class="text-aqua font-semibold hover:underline">
+              Enquire Now →
+            </a>
+          </div>
+        </div>
+
+
+        <!-- CARD 3 -->
+        <div class="service-card glass rounded-2xl overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80"
+            alt="Aquarium maintenance"
+            class="w-full h-56 object-cover">
+
+          <div class="p-7">
+            <div class="text-3xl mb-4">🫧</div>
+            <h3 class="text-2xl font-bold mb-3">Aquarium Maintenance</h3>
+            <p class="text-gray-400 leading-7 mb-6">
+              Aquarium care and maintenance services
+              to help keep your aquatic environment healthy.
+            </p>
+
+            <a href="https://wa.me/917838530420?text=I%20need%20aquarium%20care%20and%20maintenance%20services."
+               class="text-aqua font-semibold hover:underline">
+              Enquire Now →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY CHOOSE US -->
+  <section id="about" class="py-20 px-5">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1520302519878-941e3f4c4e8e?auto=format&fit=crop&w=1000&q=85"
+          alt="Beautiful aquatic aquarium"
+          class="rounded-3xl w-full h-[420px] object-cover shadow-2xl">
+      </div>
+
+      <div>
+
+        <p class="text-aqua uppercase tracking-widest text-sm font-bold mb-4">
+          Why Choose Us
+        </p>
+
+        <h2 class="text-3xl md:text-5xl font-bold mb-6">
+          Your Aquarium, <span class="aqua-text">Our Priority</span>
+        </h2>
+
+        <p class="text-gray-400 leading-8 mb-8">
+          At Aavya Fish Home, we aim to make aquarium keeping
+          simple and enjoyable with products and aquarium
+          care services in one place.
+        </p>
+
+        <div class="space-y-6">
+
+          <div class="flex gap-4">
+            <div class="text-aqua text-2xl">✓</div>
+            <div>
+              <h3 class="font-bold text-lg">Wide Variety</h3>
+              <p class="text-gray-400 text-sm mt-1">
+                All types of aquarium fish and food options.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="text-aqua text-2xl">✓</div>
+            <div>
+              <h3 class="font-bold text-lg">Aquarium Care</h3>
+              <p class="text-gray-400 text-sm mt-1">
+                Aquarium care and maintenance services.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="text-aqua text-2xl">✓</div>
+            <div>
+              <h3 class="font-bold text-lg">Easy WhatsApp Ordering</h3>
+              <p class="text-gray-400 text-sm mt-1">
+                Contact us directly for enquiries and orders.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="text-aqua text-2xl">✓</div>
+            <div>
+              <h3 class="font-bold text-lg">Convenient Location</h3>
+              <p class="text-gray-400 text-sm mt-1">
+                Located in Sanjay Nagar, Ghaziabad.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section class="px-5 py-16 bg-gradient-to-r from-[#07516A] to-[#087F91]">
+
+    <div class="max-w-5xl mx-auto text-center">
+
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-5">
+        Let's Build Your Aquatic World!
+      </h2>
+
+      <p class="text-white/80 mb-8">
+        Looking for aquarium fish, fish food or maintenance?
+        Get in touch with Aavya Fish Home today.
+      </p>
+
+      <a href="https://wa.me/917838530420?text=Hello%20Aavya%20Fish%20Home!"
+         class="inline-block bg-white text-[#06465B] px-9 py-4 rounded-full font-bold hover:scale-105 transition">
+        Chat With Us on WhatsApp →
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-[#03111D] pt-16 pb-8 px-5">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+
+      <div>
+        <h2 class="text-2xl font-extrabold mb-4">
+          AAVYA <span class="aqua-text">FISH HOME</span>
+        </h2>
+
+        <p class="text-gray-400 leading-7 text-sm">
+          Your destination for aquarium fish, fish food,
+          bird food and aquarium care services.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-5">Contact Details</h3>
+
+        <p class="text-gray-400 text-sm leading-8">
+          📍 H-45, Sec-23, Sanjay Nagar,<br>
+          Ghaziabad, Uttar Pradesh
+        </p>
+
+        <p class="text-gray-400 mt-3 text-sm">
+          WhatsApp: +91 78385 30420
+        </p>
+
+        <a href="https://wa.me/917838530420"
+           class="inline-block mt-4 text-aqua font-semibold hover:underline">
+          Message on WhatsApp →
+        </a>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-5">Quick Links</h3>
+
+        <div class="flex flex-col gap-3 text-gray-400 text-sm">
+          <a href="#home" class="hover:text-aqua">Home</a>
+          <a href="#services" class="hover:text-aqua">Products & Services</a>
+          <a href="#about" class="hover:text-aqua">Why Choose Us</a>
+          <a href="#contact" class="hover:text-aqua">Contact</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto border-t border-white/10 mt-12 pt-7 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2026 Aavya Fish Home. All Rights Reserved.
+      </p>
+      <p class="text-gray-600 text-xs mt-2">
+        Made with 💙 for aquarium lovers.
+      </p>
+    </div>
+
+  </footer>
+
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/917838530420"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Aavya Fish Home on WhatsApp"
+     class="fixed bottom-6 right-5 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="30" height="30" viewBox="0 0 24 24"
+         fill="currentColor">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.33 4.95L2 22l5.28-1.38c1.45.79 3.08 1.2 4.75 1.2h.01c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm0 18.14c-1.48 0-2.93-.4-4.19-1.16l-.3-.18-3.13.82.84-3.05-.2-.32a8.2 8.2 0 1 1 6.98 3.89zm4.5-6.15c-.25-.12-1.48-.73-1.71-.81-.23-.08-.4-.12-.57.12-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.12-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.57-1.37-.78-1.87-.21-.49-.42-.42-.57-.43h-.49c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.77 2.7 4.29 3.79.6.26 1.07.42 1.44.54.6.19 1.14.16 1.57.1.48-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.11-.23-.17-.48-.3z"/>
+    </svg>
+
+  </a>
+
+</body>
+</html>
